@@ -40,7 +40,7 @@ const create_admin = async(req,res) => {
 
         res.status(200).json({
             success:true,
-            message:"Route got hitted",
+            message:"admin created successfullyyyy & mail sent successfullyyyy",
             data:new_admin
         })
 
